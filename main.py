@@ -4,13 +4,20 @@ import course
 
 courseList = []
  
+# Loads the options file
 options = open("options.txt", "r")
 for x in options:
     if x.startswith("#"): continue
+
+    # splits the setting at the equals sign
     settingsplit = x.replace("\n", "").split("=", 1)
+
+    # loads the clientid from the options into memory
     if settingsplit[0] == "clientid":
         clientid = settingsplit[1]
         continue
+
+    # takes course and puts into the courseList
     if(settingsplit[0].startswith("class")):
         coursesplit=settingsplit[1].split(",")
 
