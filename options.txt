@@ -1,0 +1,17 @@
+# You must have a discord developer app created to use this.
+# https://discord.com/developers/applications
+
+# If you would like an Icon, upload it to the Rich Presence Assets with the name "icon"
+
+# Your client id from the OAuth2 Tab goes here:
+clientid=
+
+# any line starting with "class" is recognized as a class
+# FORMAT: class=className,startingTime,endingTime,day
+# monday = 0, tuesday = 1, wednesday = 2, etc
+
+class=CS 3200,10:10,11:05,024
+class=CS 4700,13:25,14:20,024
+class=CS 3180,9:30,10:50,13
+class=CEG 3400,11:00,12:20,13
+class=CEG 4350,15:30,16:40,13
