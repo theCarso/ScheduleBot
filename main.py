@@ -35,7 +35,6 @@ currentStatus = defaultStatus
 currentState = defaultState
 
 while True:
-    print("startloop")
     inClass=False
     for course in courseList:
         if course.isInClass():
